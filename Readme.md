@@ -6,6 +6,8 @@ This is a full-stack application with a React frontend and a FastAPI backend. Th
 
 ![ChatbotPDF Demo](./pdf%20chatbot%20.gif)
 
+- Click [here](https://docs.google.com/document/d/1KGA15VUscxcSkF3qevS2hXMtH7uZLeBqX5iJciMHRAE/edit?usp=sharing) to read more about the project
+
 ## Features
 
 - **Frontend**: Built with React and Vite, styled with TailwindCSS.
