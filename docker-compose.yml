@@ -1,0 +1,26 @@
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=http://localhost:5000/
+    ports:
+      - "3000:80"
+    networks:
+      - chatbot_network
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    environment:
+      - PYTHONUNBUFFERED=1
+    env_file: ./server/.env
+    ports:
+      - "5000:8000"
+    networks:
+      - chatbot_network
+
+networks:
+  chatbot_network:

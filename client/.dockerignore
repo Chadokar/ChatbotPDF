@@ -1,0 +1,18 @@
+# Ignore node_modules
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Build output (already built in the Dockerfile)
+dist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment files
+.env
