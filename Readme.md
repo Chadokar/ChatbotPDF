@@ -53,7 +53,7 @@ Backend API will be available at: http://localhost:5000
 
 ```plaintext
 chatbotpdf/
-├── client/                     # Frontend (React with Vite)
+├── client/                     # Frontend (React)
 │   ├── src/                    # React source files
 │   ├── Dockerfile              # Dockerfile for frontend
 │   ├── package.json            # Node.js dependencies
