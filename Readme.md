@@ -4,8 +4,7 @@ This is a full-stack application with a React frontend and a FastAPI backend. Th
 
 ---
 
-![ChatbotPDF Demo](./pdf chatbot .gif)
-
+![ChatbotPDF Demo](./pdf%20chatbot%20.gif)
 
 ## Features
 
