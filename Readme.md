@@ -4,6 +4,9 @@ This is a full-stack application with a React frontend and a FastAPI backend. Th
 
 ---
 
+![ChatbotPDF Demo](./pdf chatbot .gif)
+
+
 ## Features
 
 - **Frontend**: Built with React and Vite, styled with TailwindCSS.
@@ -53,7 +56,7 @@ Backend API will be available at: http://localhost:5000
 
 ```plaintext
 chatbotpdf/
-├── client/                     # Frontend (React with Vite)
+├── client/                     # Frontend (React)
 │   ├── src/                    # React source files
 │   ├── Dockerfile              # Dockerfile for frontend
 │   ├── package.json            # Node.js dependencies
